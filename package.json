@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "build": "npm install && npm install -g pm2",
+    "start": "pm2 start server.js"
   },
   "author": "Abhishek",
   "license": "ISC",
